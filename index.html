@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  
+  <title>1st Super Maniacs National Mega Festival 2020</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:400,700&amp;display=swap'><link rel="stylesheet" href="./style.css">
+
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+  <script type="text/javascript">
+  	$(window).load(function() {
+   $('.preloader').fadeOut('slow');
+});
+  </script>
+</head>
+<body>
+
+	<div class="preloader"></div>
+
+<form autocomplete="off">
+  <div id="focus"></div>
+  <h1 style="text-align: center;"><img src="title.png" width="500px">
+  <input type="text" id="name" name="name" placeholder="Name (Leave empty to generate blank certificate)" autocomplete="no">
+  <input type="text" id="email" name="email" placeholder="Email Address (E.g.- abc@abc.com)" autocomplete="no">
+  <input type="text" id="phone" name="phone" placeholder="Contact Number (E.g.- 01xxxxxxxxx)" autocomplete="no" style="margin-bottom: 25px;">
+  
+  <p><span class="bgcl" style="font-weight: bold;">Note:</span> After providing the above details, click the button below to generate your certificate. Download starts automatically on generation.</p><br>
+  <input type="submit" id="button" value="Download">
+  <div class="footer"><h5 class="dev">Made with <span class="heart"></span> by <a href="https://bokaif.github.io/" target="_blank"> Badruddoza Kaif</a></h5></div>
+</form>
+
+<script  src="./script.js"></script>
+<script  src="./cert.js"></script>
+
+</body>
+</html>
